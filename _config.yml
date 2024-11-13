@@ -3,7 +3,7 @@ safe: true
 source: ./
 incremental: false
 highlighter: rouge
-theme: jekyll-theme-melot
+theme: jekyll-theme-merlot
 gist:
   noscript: false
 kramdown:
