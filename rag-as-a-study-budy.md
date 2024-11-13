@@ -1,18 +1,24 @@
-# Retrieval Augmented Generation (RAG) as a study budy
+# Loïc Transler
+
+[Linkedin](https://www.linkedin.com/in/loictransler/)
+[Portfolio homepage](/portfolio/)
+
+
+## Retrieval Augmented Generation (RAG) as a study budy
 
 [Repository](https://github.com/loictr/rag-as-study-buddy)
 
-## Keywords
+### Keywords
 
 Python, LLM, GenAI, RAG, langchain
 
-## Use case
+### Use case
 
 A company possesses vast and continually evolving knowledge. Each employee stands to benefit from a deeper understanding of this knowledge. This applies to support teams, business teams who may encounter numerous questions from stakeholders, and developers needing to excel in their domain.
 
 This understanding of company knowledge could be integrated into new employee onboarding processes. Additionally, the company could implement an internal certification program with incentives, or simply encourage employees to engage with corporate quizzes on a daily or weekly basis.
 
-## Implementation
+### Implementation
 
 For easy portability, the demo uses markdown files for the knowledge content. It could also come from Confluence or any internal wiki or pdfs in a shared directory...
 
