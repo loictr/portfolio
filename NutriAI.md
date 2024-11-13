@@ -1,6 +1,7 @@
 # Loïc Transler
 
 [Linkedin](https://www.linkedin.com/in/loictransler/)
+
 [Portfolio homepage](/portfolio/)
 
 

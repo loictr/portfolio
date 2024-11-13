@@ -2,6 +2,8 @@
 
 [Linkedin](https://www.linkedin.com/in/loictransler/)
 
+Here are some valuable personal projects I worked on.
+
 ## RAG as a study buddy
 
 Retrieval Augmented Generation system to retrieve information from a knowledge database, ask questions to the user, and evaluate his answers.

@@ -1,10 +1,7 @@
-layout: page
-title: "ESP scene notifier"
-permalink: /esp-scene-notifier
-
 # Loïc Transler
 
 [Linkedin](https://www.linkedin.com/in/loictransler/)
+
 [Portfolio homepage](/portfolio/)
 
 
