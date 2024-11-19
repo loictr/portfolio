@@ -8,6 +8,8 @@
 
 [Repository](https://github.com/loictr/cocktails-explorer)
 
+{% include youtube.html id="xdRYV1Nt5Ww" %}
+
 ### Keywords
 
 Vector database, python, pandas, recommendation system, angular
