@@ -11,6 +11,8 @@
 
 [Demo](https://lemon-mushroom-01848ce03.5.azurestaticapps.net/fr/)
 
+{% include youtube.html id="Md65-Y_odbc" %}
+
 ### Keywords
 
 C#, .Net core, LLM, GenAI, OpenAI, Azure, Angular, ChatGPT, Prompt engineering
