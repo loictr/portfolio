@@ -6,7 +6,7 @@
 
 ## Cocktails explorer
 
-[Repository](https://github.com/loictr)
+[Repository](https://github.com/loictr/cocktails-explorer)
 
 ### Keywords
 
