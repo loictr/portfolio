@@ -7,7 +7,8 @@
 
 ## NutriAI
 
-[Repository](https://github.com/loictr/rag-as-study-buddy)
+[Repository](https://github.com/loictr/NutritionAI)
+
 [Demo](https://lemon-mushroom-01848ce03.5.azurestaticapps.net/fr/)
 
 ### Keywords
