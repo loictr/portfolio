@@ -3,7 +3,7 @@ safe: true
 source: ./
 incremental: false
 highlighter: rouge
-remote_theme: artemsheludko/galada
+remote_theme: sharu725/cards
 gist:
   noscript: false
 kramdown:
