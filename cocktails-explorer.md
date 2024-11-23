@@ -20,4 +20,6 @@ Cocktails explorer is a website presenting cocktails recipes with their ingredie
 
 The user selects one or more cocktails. And the recommendation system uses the vectorized ingredients data to suggest other cocktails to the user based on the distance between his selection and the other cocktails.
 
-I bootstrapped the front using bolt.new
+### Exploting AI tools
+
+I bootstrapped the front using Bolt.new, used Github copilot to continue the coding, generated the logo by diffusion with Flux in ComfyUI, created the music for the demo video using Suno. A well balanced cocktail of AI tooling.

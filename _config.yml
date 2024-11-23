@@ -3,7 +3,7 @@ safe: true
 source: ./
 incremental: false
 highlighter: rouge
-theme: jekyll-theme-merlot
+remote_theme: CloudCannon/hydra-jekyll-template
 gist:
   noscript: false
 kramdown:
