@@ -1,0 +1,35 @@
+// Main Colors
+$primary-color: rgb(62, 228, 196); // A vivid turquoise
+$secondary-color: #e67e22; // A bright orange
+$highlight: #f39c12; // A vivid yellow-orange
+$text: #ffffff; // Pure white for text
+$gray-blue: #7f8c8d; // A medium gray-blue
+$white: #ffffff; // Keeping white as is
+$black: #34495e; // A dark blue-gray for better contrast
+$lighten-black: #2c3e50; // A distinct lighten-black
+$blue-black: #2c3e50; // Matching the new lighten-black
+$blue-darken: #2980b9; // A vivid dark blue
+$green-darken: #16a085; // A vivid dark green
+$danger: #c0392b; // A vivid red for danger
+$success: #27ae60; // A vivid green for success
+
+
+// Background Colors
+$background: $blue-black;
+
+// Body Color
+$body-color: $text;
+
+// Headings
+$heading-font-color: #404040;
+
+// Links
+$link-color: $primary-color;
+$link-color-hover: lighten($link-color, 15%);
+
+// Button
+$button-color: $white;
+$button-background-color: $primary-color;
+
+// Border
+$border-color: #3E4250;

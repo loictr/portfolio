@@ -1,17 +1,14 @@
-# Loïc Transler
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-[Linkedin](https://www.linkedin.com/in/loictransler/)
-
-[Portfolio homepage](/portfolio/)
-
-
-## Retrieval Augmented Generation (RAG) as a study budy
-
-[Repository](https://github.com/loictr/rag-as-study-buddy)
-
-### Keywords
-
-Python, LLM, GenAI, RAG, langchain
+layout: post
+title:  "RAG as a study buddy"
+tags: [Python, LLM, GenAI, RAG, langchain]
+repository: https://github.com/loictr/rag-as-study-buddy
+thumbnail: windrider.png
+description: A RAG tool to boost employee knowledge. It generates questions from company data and evaluates user answers.
+---
 
 ### Use case
 

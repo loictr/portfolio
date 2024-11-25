@@ -1,18 +1,11 @@
-# Loïc Transler
-
-[Linkedin](https://www.linkedin.com/in/loictransler/)
-
-[Portfolio homepage](/portfolio/)
-
-
-## ESP scene notifier
-
-[Repository](https://github.com/loictr/esp-scene-notifier-st7789)
-
-### Keywords
-
-IoT, Zigbee, C, Embedded
-
+---
+layout: post
+title:  "ESP Scene Notifier"
+date:   2024-11-20
+thumbnail:  homeassistant.png
+tags:   [IoT, Zigbee, C, Embedded]
+description: Creating an ESP32-based device to provide visual feedback for Home Assistant automations.
+---
 ### Use case
 
 I have some automations running on Home Assistant for my home cinema setup. Some are quite long to run and we have no visual feedback on their processing.
