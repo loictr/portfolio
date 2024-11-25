@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { title, description, image, slug, tags } = Astro.props;
-const projectUrl = `/projects/${slug}`;
+const projectUrl = `projects/${slug}`;
 ---
 
 <a href={projectUrl} class="group">
