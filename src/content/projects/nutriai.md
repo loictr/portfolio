@@ -3,7 +3,6 @@ layout: ../../layouts/ProjectLayout.astro
 title:  "Nutri AI"
 image:  nutriai-capture.png
 tags:   [C#, .Net core, LLM, GenAI, OpenAI, Azure, Angular, ChatGPT, Prompt engineering]
-repoUrl: https://github.com/loictr/NutritionAI
 demoUrl: https://lemon-mushroom-01848ce03.5.azurestaticapps.net/en/
 videoId: Md65-Y_odbc
 description: A project utilizing generative AI to create healthy weekly menus. Users can reject meals, and receive alternative suggestions.
