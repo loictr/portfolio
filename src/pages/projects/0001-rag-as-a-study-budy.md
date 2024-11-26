@@ -35,3 +35,7 @@ Then, I created a first RAG chain to generate the questions upon the content.
 Finally, I created a second chain that is used to get the asked question and the user's answer, get the relevant context from the knowledge base, then evaluate the user's answer considering the question and the knowledge.
 
 I started with a notebook for a PoC. Then I created a demo based on `Gradio` for a quick chat UX.
+
+## Note on the image
+
+The image of the bird was generated with Stable Diffusion on ComfyUI using the description in the document as a prompt.
