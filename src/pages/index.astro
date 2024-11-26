@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import SocialLink from '../components/SocialLink.astro';
+import { getCollection } from 'astro:content';
 
 const PROFILE = {
   name: "Loïc Transler",
@@ -9,18 +10,12 @@ const PROFILE = {
   linkedin: "https://www.linkedin.com/in/loictransler/"
 };
 
-// Get all project files from the projects directory
-const projects = (await Astro.glob('./projects/*.{md,astro}')).sort((a, b) => a.url.localeCompare(b.url));
-const projectData = projects.map(project => ({
-  title: project.frontmatter.title,
-  description: project.frontmatter.description,
-  image: project.frontmatter.image,
-  tags: project.frontmatter.tags,
-  slug: project.url?.split('/').pop() || ''
-}));
+const projects = await getCollection('projects');
+const projectData = projects.sort((a, b) => a.data.order - b.data.order);
 ---
 
 <Layout title={`${PROFILE.name} - Portfolio`}>
+
   <main class="max-w-6xl mx-auto px-4 py-12">
     <div class="text-center mb-16">
       <h1 class="text-4xl font-bold text-text mb-4">{PROFILE.name}</h1>

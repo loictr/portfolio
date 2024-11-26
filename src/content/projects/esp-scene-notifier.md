@@ -4,6 +4,7 @@ title:  "ESP Scene Notifier"
 image:  homeassistant.png
 tags:   [IoT, Zigbee, C, Embedded]
 description: Creating an ESP32-based device to provide visual feedback for Home Assistant automations.
+order: 500
 ---
 ## Use case
 

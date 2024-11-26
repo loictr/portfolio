@@ -1,27 +1,35 @@
 ---
 interface Props {
-  title: string;
-  description: string;
-  image: string;
   slug: string;
-  tags: string[];
+  collection: string;
+  data: {
+    title?: string;
+    image?: string;
+    tags?: string[];
+    repoUrl?: string;
+    demoUrl?: string;
+    videoId?: string;
+    description?: string;
+    order?: number;
+  };
 }
 
-const { title, description, image, slug, tags } = Astro.props;
-const projectUrl = `${import.meta.env.BASE_URL}/projects/${slug}`;
-const imagePath = `${import.meta.env.BASE_URL}/${image}`;
+
+const { data, slug, collection } = Astro.props;
+const projectUrl = `${import.meta.env.BASE_URL}/${collection}/${slug}`;
+const imagePath = `${import.meta.env.BASE_URL}/${data.image}`;
 ---
 
 <a href={projectUrl} class="group">
   <div class="bg-background-dark rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
-    <img src={imagePath} alt={title} class="w-full h-48 object-cover" />
+    <img src={imagePath} alt={data.title} class="w-full h-48 object-cover" />
     <div class="p-4">
-      <h3 class="text-xl font-semibold text-text mb-2">{title}</h3>
-      <p class="text-text-muted">{description}</p>
+      <h3 class="text-xl font-semibold text-text mb-2">{data.title}</h3>
+      <p class="text-text-muted">{data.description}</p>
     </div>
     <div class="p-4 pt-0">
       <ul class="flex flex-wrap gap-2">
-        {tags.map(tag => (
+        {data.tags.map(tag => (
           <li class="bg-primary bg-opacity-20 text-primary text-sm px-2 py-1 rounded">{tag}</li>
         ))}
       </ul>

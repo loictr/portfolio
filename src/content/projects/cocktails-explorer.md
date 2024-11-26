@@ -9,6 +9,8 @@ image: cocktail-explorer-logo.png
 videoId: "58vLR0G_nI0"
 repoUrl: https://github.com/loictr/cocktails-explorer
 description: A cocktail recommendation system. Choose your favorite cocktails, and the engine will suggest others you might like.
+slug: cocktail-recommendation
+order: 300
 ---
 
 ## Presentation

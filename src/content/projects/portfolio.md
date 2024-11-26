@@ -5,6 +5,7 @@ image:  astro.png
 tags:   [Bolt.new, Astro]
 description: This portfolio
 slug: portfolio
+order: 400
 ---
 ## Back and forth to Bolt.new
 
