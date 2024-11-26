@@ -8,7 +8,7 @@ const { frontmatter } = Astro.props;
   <main class="max-w-4xl mx-auto px-4 py-12">
     {frontmatter.image && (
       <img 
-      src={`../${frontmatter.image}`} 
+      src={`${import.meta.env.BASE_URL}/${frontmatter.image}`} 
       alt={frontmatter.title}
       class="w-full h-64 object-cover rounded-lg shadow-md mb-8"
       />
