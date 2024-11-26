@@ -11,7 +11,15 @@ const { title } = Astro.props;
 <Layout title={title}>
     <nav class="bg-background-dark shadow-sm">
       <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href={import.meta.env.BASE_URL} class="text-xl font-bold text-text">Loïc Transler</a>
+        <a href={import.meta.env.BASE_URL} class="text-text hover:text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <title>Home</title>
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+          </svg>
+        </a>
+        <div class="flex-grow text-center">
+          <a href={import.meta.env.BASE_URL} class="text-xl font-bold text-text">Loïc Transler</a>
+        </div>
         <a href="https://www.linkedin.com/in/loictransler" target="_blank" rel="noopener noreferrer" class="text-text hover:text-primary">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <title>LinkedIn</title>
