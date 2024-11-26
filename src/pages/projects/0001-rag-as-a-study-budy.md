@@ -8,7 +8,6 @@ tags: [Python, LLM, GenAI, RAG, langchain]
 repoUrl: https://github.com/loictr/rag-as-study-buddy
 image: windrider.png
 description: A RAG tool to boost employee knowledge. It generates questions from company data and evaluates user answers.
-slug: rag
 ---
 
 ## Use case
