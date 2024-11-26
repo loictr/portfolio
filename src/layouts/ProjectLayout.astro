@@ -1,5 +1,5 @@
 ---
-import Layout from './Layout.astro';
+import Layout from './LayoutWithNav.astro';
 
 const { frontmatter } = Astro.props;
 const imagePath = frontmatter.image ? `${import.meta.env.BASE_URL}/${frontmatter.image}` : null;
@@ -39,7 +39,7 @@ const imagePath = frontmatter.image ? `${import.meta.env.BASE_URL}/${frontmatter
           href={frontmatter.demoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center px-4 py-2 bg-primary text-background rounded-md hover:bg-primary-light"
+          class="inline-flex items-center px-4 py-2 bg-background-light text-text rounded-md hover:bg-primary hover:bg-opacity-20"
         >
           Live Demo
         </a>
