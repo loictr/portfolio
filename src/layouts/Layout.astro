@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+const GA_TRACKING_ID = 'G-YH6F3T4ZLG'; // Replace with your actual tracking ID
 ---
 
 <!doctype html>
@@ -15,6 +16,14 @@ const { title } = Astro.props;
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <!-- Google Analytics -->
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{GA_TRACKING_ID}');
+    </script>
   </head>
   <body class="bg-background text-text min-h-screen">
     <slot />
