@@ -8,6 +8,7 @@ tags: [Vector database, python, pandas, recommendation system, angular]
 image: cocktail-explorer-logo.png
 videoId: "vVT7uqcw59k"
 repoUrl: https://github.com/loictr/cocktails-explorer
+demoUrl: https://cocktailsexplorer.azurewebsites.net/
 description: A cocktail recommendation system. Choose your favorite cocktails, and the engine will suggest others you might like.
 slug: cocktail-recommendation
 order: 300
